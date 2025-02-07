@@ -121,13 +121,41 @@ GigaGAN demuestra que, mediante innovaciones en arquitectura y técnicas de entr
 
 ---
 
-## 8. Conclusiones
+## 8. Preguntas Clave
+
+### 8.1 Contexto Histórico
+
+GigaGAN fue presentado en CVPR 2023 por un equipo de investigadores de **POSTECH**, **Carnegie Mellon University** y **Adobe Research**. Los principales autores son Minguk Kang, Jun-Yan Zhu, Richard Zhang, Jaesik Park, Eli Shechtman, Sylvain Paris y Taesung Park.  
+La motivación para desarrollar GigaGAN surgió en un momento en el que los modelos de difusión y autoregresivos habían comenzado a dominar la síntesis de imágenes a partir de texto, a pesar de que las GANs ofrecían una generación mucho más rápida. El reto era escalar las GANs a niveles de capacidad (hasta mil millones de parámetros) y estabilidad en el entrenamiento usando conjuntos de datos de gran escala (como LAION2B-en y COYO-700M), demostrando así que las GANs seguían siendo una opción viable para tareas de síntesis de imagen condicionada por texto.  
+
+### 8.2 Aplicaciones y Casos de Uso
+
+GigaGAN se presta a diversas aplicaciones tanto en investigación como en la industria:
+
+- **Síntesis de Imágenes a Partir de Texto:**  
+  Permite generar imágenes a partir de descripciones textuales, siendo útil en campos como el diseño gráfico, la publicidad y la generación de contenido creativo.
+
+- **Edición y Manipulación de Imágenes:**  
+  Gracias a su espacio latente disentrelazado, se pueden realizar operaciones de edición como la interpolación y la mezcla de estilos, facilitando la modificación y personalización de imágenes existentes.
+
+- **Super-Resolución y Upscaling:**  
+  Su variante de upscaler puede transformar imágenes de baja resolución en versiones de alta calidad y alta resolución, aplicable en la restauración de imágenes o en la mejora de contenido visual para impresión y multimedia.
+
+- **Aplicaciones en Dispositivos Edge y Móviles:**  
+  La alta velocidad de inferencia hace a GigaGAN especialmente atractiva para aplicaciones en tiempo real y en dispositivos con recursos limitados, como smartphones o dispositivos embebidos.
+
+- **Integración en Herramientas de Edición:**  
+  Las capacidades de edición en el espacio latente permiten que GigaGAN se integre en software de edición de imágenes, ofreciendo a los usuarios herramientas avanzadas para modificar y mejorar sus creaciones.
+
+---
+
+## 9. Conclusiones
 
 GigaGAN representa un avance significativo en el campo de las GAN, demostrando que es posible escalar estos modelos a niveles de mil millones de parámetros y combinar técnicas modernas para mejorar la generación de imágenes. Aunque existe un compromiso entre velocidad y calidad, su capacidad para generar imágenes de forma rápida y con retroalimentación en múltiples resoluciones la posiciona como una alternativa prometedora a los modelos basados en difusión, especialmente en aplicaciones donde el tiempo de respuesta es crítico.
 
 ---
 
-## 9. Clarificación: ¿Es realmente GigaGAN una Variante de las GAN?
+## 10. Clarificación: ¿Es realmente GigaGAN una Variante de las GAN?
 
 Sí y no. Aunque GigaGAN es una instancia específica, sus innovaciones la posicionan claramente como una variante del modelo GAN original. A continuación, detallo esta distinción:
 
@@ -147,7 +175,7 @@ GigaGAN es, al mismo tiempo, un ejemplo específico y una variante de las GAN. S
 
 ---
 
-## 10. Recursos y Lecturas Complementarias
+## 11. Recursos y Lecturas Complementarias
 
 Esta investigación se ha basado en los siguientes recursos:
 - https://www.marktechpost.com/2023/03/13/meet-gigagan-a-large-scale-modified-gan-architecture-for-text-to-image-synthesis/
