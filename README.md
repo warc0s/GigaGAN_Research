@@ -38,3 +38,15 @@ Para terminar, recuerdo que el archivo [investigacion.md](investigacion.md) cont
 
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT.
+
+## Recursos y Lecturas Complementarias
+
+Este repositorio, e investigación, se ha basado en los siguientes recursos:
+
+- [MarkTechPost – Meet GigaGAN: A Large-Scale Modified GAN Architecture for Text-to-Image Synthesis](https://www.marktechpost.com/2023/03/13/meet-gigagan-a-large-scale-modified-gan-architecture-for-text-to-image-synthesis/)
+- [Sitio Oficial de Minguk Kang – GigaGAN](https://mingukkang.github.io/GigaGAN/)
+- [Auxo Digital – The Dawn of GigaGAN: A New Contender in the AI Image Generation Arena](https://auxo.digital/blogs/the-dawn-of-gigagan-a-new-contender-in-the-ai-image-generation-arena)
+- [Spring24 – Advanced GAN Lecture (PDF)](https://slazebni.cs.illinois.edu/spring24/lec12_gan_advanced.pdf)
+- [GitHub – gigagan-pytorch by lucidrains](https://github.com/lucidrains/gigagan-pytorch)
+- [YouTube – Video sobre GigaGAN](https://www.youtube.com/watch?v=ZjxtuDQkOPY)
+- [GitHub – Minguk Kang’s GigaGAN](https://github.com/mingukkang/GigaGAN/)
