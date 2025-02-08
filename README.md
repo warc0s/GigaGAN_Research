@@ -1,6 +1,6 @@
 # Investigación e Implementación de una GigaGAN
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/warc0s/GigaGAN_Research/blob/main/logo_gigaGAN.png?raw=true" alt="GigaGAN Research" width="95%">
 </p>
 
