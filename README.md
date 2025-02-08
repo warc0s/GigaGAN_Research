@@ -1,5 +1,8 @@
 # Investigación e Implementación de una GigaGAN
-(insertar logo)
+
+<p align="left">
+  <img src="https://github.com/warc0s/GigaGAN_Research/blob/main/logo_gigaGAN.png?raw=true" alt="GigaGAN Research" width="75%">
+</p>
 
 ## Descripción General
 Este repositorio presenta una exploración exhaustiva que abarca tanto la investigación teórica como una implementación práctica completa de una **GigaGAN**. El proyecto culmina con una GigaGAN para la generación de imágenes de Pastores Alemanes, utilizando un dataset sintético generado localmente. Puedes consultar el detalle teórico sobre GigaGAN en [investigacion.md](investigacion.md) y la implementación práctica en el cuaderno Jupyter.
@@ -17,12 +20,11 @@ Este repositorio presenta una exploración exhaustiva que abarca tanto la invest
 - **Especificaciones**:
   - 5,000 imágenes en resolución 256x256
   - Escenarios diversos y realistas (parques, entornos urbanos, fondos nevados, etc.)
-  - Tiempo de generación optimizado: ~2 horas en RTX 3090
-  - Tasa de procesamiento eficiente: 100 imágenes/2 minutos
+  - Tiempo de generación: ~2 horas en mi RTX 3090
 - **Disponibilidad del dataset**: Tras completar la generación del dataset, decidí compartirlo con la comunidad subiéndolo a Kaggle para que otros investigadores y entusiastas puedan beneficiarse de él. Está disponible en [este enlace](https://www.kaggle.com/datasets/warc0s/german-shepherd)
 
 ### Proceso del Entrenamiento
-- **Preprocesamiento**: Redimensionado a 128x128 para maximizar la eficiencia del entrenamiento
+- **Preprocesamiento**: Redimensionado a 128x128 para acelerar el entrenamiento
 - **Duración del entrenamiento**: 100 épocas (~18 horas en mi RTX 3090)
 - **Monitorización**:
   - Checkpoints sistemáticamente guardados cada 5 épocas (archivos `.pth`)
