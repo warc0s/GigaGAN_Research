@@ -5,7 +5,7 @@
 </p>
 
 ## Descripción General
-Este repositorio presenta una exploración exhaustiva que abarca tanto la investigación teórica como una implementación práctica completa de una **GigaGAN**. El proyecto culmina con una GigaGAN para la generación de imágenes de Pastores Alemanes, utilizando un dataset sintético generado localmente. Puedes consultar el detalle teórico sobre GigaGAN en [investigacion.md](investigacion.md) y la implementación práctica en el cuaderno Jupyter.
+Este repositorio presenta una exploración exhaustiva que abarca tanto la investigación teórica como una implementación práctica completa de una **GigaGAN**. El proyecto culmina con una GigaGAN para la generación de imágenes de Pastores Alemanes, utilizando un dataset sintético generado localmente. Puedes consultar el detalle teórico sobre GigaGAN en [investigacion.md](investigacion.md) y la implementación práctica en el [cuaderno Jupyter](GigaGAN_GS.ipynb).
 
 ## 📁 Estructura del Repositorio
 - `investigacion.md` - Investigación técnica detallada sobre GigaGAN
@@ -31,7 +31,7 @@ Este repositorio presenta una exploración exhaustiva que abarca tanto la invest
   - Visualización detallada del progreso mediante muestras 3x3
 
 ### Evolución del Entrenamiento
-*[Se añadirá GIF mostrando la progresión completa del entrenamiento nada mas termine]*
+![Training GIF](https://github.com/warc0s/GigaGAN_Research/blob/main/epoch_images/output.gif?raw=true)
 
 ## 📝 Investigación Teórica
 Para terminar, recuerdo que el archivo [investigacion.md](investigacion.md) contiene un análisis en profundidad de la arquitectura GigaGAN, incluyendo sus autores, tecnologías clave, innovaciones principales y comparativas con otras GANs similares así como modelos de difusión.
