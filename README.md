@@ -36,10 +36,7 @@ Este repositorio presenta una exploración exhaustiva que abarca tanto la invest
 ## 📝 Investigación Teórica
 Para terminar, recuerdo que el archivo [investigacion.md](investigacion.md) contiene un análisis en profundidad de la arquitectura GigaGAN, incluyendo sus autores, tecnologías clave, innovaciones principales y comparativas con otras GANs similares así como modelos de difusión.
 
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT.
-
-## Recursos y Lecturas Complementarias
+## 📕 Recursos y Lecturas Complementarias
 
 Este repositorio, e investigación, se ha basado en los siguientes recursos:
 
@@ -50,3 +47,6 @@ Este repositorio, e investigación, se ha basado en los siguientes recursos:
 - [GitHub – gigagan-pytorch by lucidrains](https://github.com/lucidrains/gigagan-pytorch)
 - [YouTube – Video sobre GigaGAN](https://www.youtube.com/watch?v=ZjxtuDQkOPY)
 - [GitHub – Minguk Kang’s GigaGAN](https://github.com/mingukkang/GigaGAN/)
+
+## 📄 Licencia
+Este proyecto está bajo la Licencia MIT.
