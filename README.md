@@ -13,7 +13,7 @@ Este repositorio presenta una exploración exhaustiva que abarca tanto la invest
 ## 🔍 Detalles de la Implementación Práctica
  
 ### Generación del Dataset
-- **Origen**: Dataset sintético generado localmente mediante **Flux Schell** (una versión destilada y más eficiente de Flux Dev)
+- **Origen**: Dataset sintético generado localmente mediante **Flux Schnell** (una versión destilada y más eficiente de Flux Dev)
 - **Especificaciones**:
   - 5,000 imágenes en resolución 256x256
   - Escenarios diversos y realistas (parques, entornos urbanos, fondos nevados, etc.)
