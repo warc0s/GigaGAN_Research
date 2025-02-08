@@ -21,7 +21,16 @@ Esta capacidad de producir imágenes en un solo paso, partiendo de un vector de 
 
 ---
 
-## 3. Glosario de Términos
+## 3. Motivación de la Investigación
+
+Mi elección de investigar GigaGAN surge de la necesidad de explorar alternativas a los modelos basados en difusión, que, aunque ofrecen alta calidad, sufren de tiempos de generación más lentos. Se plantea la siguiente interrogante:
+> **¿Realmente las GAN han quedado obsoletas frente a los modelos de difusión como Stable Diffusion?**
+
+GigaGAN demostrará que, mediante innovaciones en arquitectura y técnicas de entrenamiento, es posible alcanzar un equilibrio entre velocidad y calidad. Este equilibrio podría abrir nuevas oportunidades de aplicación, especialmente en entornos donde la rapidez es esencial.
+
+---
+
+## 4. Glosario de Términos
 
 Para entender en profundidad las innovaciones implementadas en GigaGAN, es fundamental familiarizarse con los siguientes conceptos:
 
@@ -60,7 +69,7 @@ Para entender en profundidad las innovaciones implementadas en GigaGAN, es funda
 
 ---
 
-## 4. Características Principales de GigaGAN
+## 5. Características Principales de GigaGAN
 
 Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones que la distinguen de las GAN tradicionales:
 
@@ -73,9 +82,9 @@ Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones qu
 
 ---
 
-## 5. Comparativa con Otros Modelos
+## 6. Comparativa con Otros Modelos
 
-### 5.1. Comparación con StyleGAN
+### 6.1. Comparación con StyleGAN
 
 - **Tamaño y Capacidad:**  
   - *GigaGAN:* Mil millones de parámetros.  
@@ -84,7 +93,7 @@ Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones qu
   - *GigaGAN:* Evalúa imágenes intermedias, permitiendo una retroalimentación en múltiples resoluciones.  
   - *StyleGAN:* Produce únicamente una imagen final sin retroalimentación intermedia.
 
-### 5.2. Comparación con Modelos Basados en Difusión (e.g., Stable Diffusion)
+### 6.2. Comparación con Modelos Basados en Difusión (e.g., Stable Diffusion)
 
 - **Velocidad:**  
   - *GigaGAN:* Genera imágenes en un solo paso, alcanzando 512px en 0.13 segundos y realizando upscaling a 1024px en el mismo tiempo.  
@@ -98,7 +107,7 @@ Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones qu
 
 ---
 
-## 6. Ventajas y Desventajas de GigaGAN
+## 7. Ventajas y Desventajas de GigaGAN
 
 ### Ventajas
 - **Alta Velocidad de Generación:** Proceso de un solo paso que reduce significativamente el tiempo de inferencia.
@@ -109,15 +118,6 @@ Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones qu
 ### Desventajas
 - **Calidad Relativa:** Aunque rápida, la calidad puede ser ligeramente inferior a la obtenida mediante procesos iterativos como los de los modelos de difusión.
 - **Requerimientos Computacionales:** El gran número de parámetros puede implicar un mayor consumo de recursos durante el entrenamiento, lo que podría limitar su uso en ciertos entornos.
-
----
-
-## 7. Motivación de la Investigación
-
-Mi elección de investigar GigaGAN surge de la necesidad de explorar alternativas a los modelos basados en difusión, que, aunque ofrecen alta calidad, sufren de tiempos de generación más lentos. Se plantea la siguiente interrogante:
-> **¿Realmente las GAN han quedado obsoletas frente a los modelos de difusión como Stable Diffusion?**
-
-GigaGAN demuestra que, mediante innovaciones en arquitectura y técnicas de entrenamiento (como las ya mencionadas), es posible alcanzar un equilibrio entre velocidad y calidad. Este equilibrio podría abrir nuevas oportunidades de aplicación, especialmente en entornos donde la rapidez es esencial.
 
 ---
 
@@ -149,9 +149,8 @@ GigaGAN se presta a diversas aplicaciones tanto en investigación como en la ind
 
 ---
 
-## 9. Conclusiones
-
-GigaGAN representa un avance significativo en el campo de las GAN, demostrando que es posible escalar estos modelos a niveles de mil millones de parámetros y combinar técnicas modernas para mejorar la generación de imágenes. Aunque existe un compromiso entre velocidad y calidad, su capacidad para generar imágenes de forma rápida y con retroalimentación en múltiples resoluciones la posiciona como una alternativa prometedora a los modelos basados en difusión, especialmente en aplicaciones donde el tiempo de respuesta es crítico.
+## 9. Ejemplo Práctico
+[Próximamente]
 
 ---
 
@@ -172,10 +171,15 @@ Sí y no. Aunque GigaGAN es una instancia específica, sus innovaciones la posic
 **En resumen:**  
 GigaGAN es, al mismo tiempo, un ejemplo específico y una variante de las GAN. Su relevancia en este trabajo radica en que, al implementar una serie de modificaciones significativas sobre el marco clásico de las GAN, ofrece una nueva perspectiva y muestra cómo es posible evolucionar estos modelos para cumplir con demandas contemporáneas de velocidad y eficiencia sin abandonar el enfoque fundamental de la generación adversarial.
 
+---
+
+## 11. Conclusiones
+
+GigaGAN representa un avance significativo en el campo de las GAN, demostrando que es posible escalar estos modelos a niveles de mil millones de parámetros y combinar técnicas modernas para mejorar la generación de imágenes. Aunque existe un compromiso entre velocidad y calidad, su capacidad para generar imágenes de forma rápida y con retroalimentación en múltiples resoluciones la posiciona como una alternativa prometedora a los modelos basados en difusión, especialmente en aplicaciones donde el tiempo de respuesta es crítico.
 
 ---
 
-## 11. Recursos y Lecturas Complementarias
+## 12. Recursos y Lecturas Complementarias
 
 Esta investigación se ha basado en los siguientes recursos:
 - https://www.marktechpost.com/2023/03/13/meet-gigagan-a-large-scale-modified-gan-architecture-for-text-to-image-synthesis/
