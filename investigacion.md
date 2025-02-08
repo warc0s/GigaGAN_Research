@@ -146,6 +146,15 @@ GigaGAN se presta a diversas aplicaciones tanto en investigación como en la ind
 - **Integración en Herramientas de Edición:**  
   Las capacidades de edición en el espacio latente permiten que GigaGAN se integre en software de edición de imágenes, ofreciendo a los usuarios herramientas avanzadas para modificar y mejorar sus creaciones.
 
+## 8.3 Comparación frente a sus Alternativas
+
+| Aspecto               | GigaGAN                          | StyleGAN             | Stable Diffusion       |
+|-----------------------|----------------------------------|----------------------|------------------------|
+| **Parámetros**        | 1B                               | ~150M                | ~890M                  |
+| **Velocidad (512px)** | 0.13s                            | 0.08s                | 5-10s (20 pasos)       |
+| **Calidad**           | Alta (no siempre supera difusión)| Buena                | Excelente              |
+| **Uso Ideal**         | Edge devices, apps en tiempo real| Retoques estilísticos| Calidad premium        |
+
 ---
 
 ## 9. Clarificación: ¿Es realmente GigaGAN una Variante de las GAN?
