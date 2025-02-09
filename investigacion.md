@@ -104,6 +104,15 @@ Sabiendo ya los términos anteriores, GigaGAN integra todas esas innovaciones qu
   - *GigaGAN:* Potencialmente ideal para aplicaciones en dispositivos edge o smartphones, donde la velocidad es crucial.  
   - *Difusión:* Mejor para escenarios en los que la calidad extrema es prioritaria y el tiempo de generación es menos crítico.
 
+### 6.3 Tabla comparativa frente a sus Alternativas
+
+| Aspecto               | GigaGAN                          | StyleGAN             | Stable Diffusion       |
+|-----------------------|----------------------------------|----------------------|------------------------|
+| **Parámetros**        | 1B                               | ~150M                | ~890M                  |
+| **Velocidad (512px)** | 0.13s                            | 0.08s                | 5-10s (20 pasos)       |
+| **Calidad**           | Alta (no siempre supera difusión)| Buena                | Excelente              |
+| **Uso Ideal**         | Edge devices, apps en tiempo real| Retoques estilísticos| Calidad premium        |
+
 ---
 
 ## 7. Ventajas y Desventajas de GigaGAN
@@ -145,15 +154,6 @@ GigaGAN se presta a diversas aplicaciones tanto en investigación como en la ind
 
 - **Integración en Herramientas de Edición:**  
   Las capacidades de edición en el espacio latente permiten que GigaGAN se integre en software de edición de imágenes, ofreciendo a los usuarios herramientas avanzadas para modificar y mejorar sus creaciones.
-
-## 8.3 Comparación frente a sus Alternativas
-
-| Aspecto               | GigaGAN                          | StyleGAN             | Stable Diffusion       |
-|-----------------------|----------------------------------|----------------------|------------------------|
-| **Parámetros**        | 1B                               | ~150M                | ~890M                  |
-| **Velocidad (512px)** | 0.13s                            | 0.08s                | 5-10s (20 pasos)       |
-| **Calidad**           | Alta (no siempre supera difusión)| Buena                | Excelente              |
-| **Uso Ideal**         | Edge devices, apps en tiempo real| Retoques estilísticos| Calidad premium        |
 
 ---
 
